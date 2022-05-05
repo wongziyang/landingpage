@@ -31,7 +31,7 @@ ul{
     font-weight: extra-bold;
 }
 
-button{
+.description button{
     background-color: #3882F6;
     border: none;
     border-radius: 5px;
@@ -76,6 +76,7 @@ body{
     display: flex;
     flex-flow: column;
     align-items: center;
+    padding-bottom: 100px;
 }
 
 .content1 h2{
@@ -94,4 +95,54 @@ body{
 
 ul li img{
     border-radius: 10px;
+}
+
+.content2{
+    display: flex;
+    flex-flow: column;
+    background-color: #E5E7EB;
+    align-items: center;
+    font-size: 24px;
+    font-weight: 100;
+    font-style: italic;
+    color: #1f2937;
+    padding: 100px 450px;
+}
+
+.content2 .author{
+    align-self: flex-end;
+}
+
+.signup{
+    display: flex;
+    justify-content: space-around;
+    background-color: #3882F6;
+    margin: 100px 350px;
+    padding: 50px;
+    border-radius: 10px;
+    align-items: center;
+    color: #F9FAF8;
+    /* flex: auto; */
+}
+
+.signuptext h3{
+    margin: 0px;
+    /* padding: 50px 50px 50px; */
+}
+
+.signup button{
+    border-radius: 5px;
+    padding: 3px 20px;
+    background-color: #3882F6;
+    border-color: #F9FAF8;
+    border-style: solid;
+    color: #F9FAF8;
+    font-weight: 600;
+}
+
+.footer{
+    background-color: #1F2937;
+    color: #F9FAF8;
+    text-align: center;
+    padding: 30px;
 }
