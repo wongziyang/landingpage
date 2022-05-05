@@ -71,9 +71,6 @@ body{
     font-family: 'Roboto', sans-serif;
 }
 
-img{
-    background-color: grey;
-}
 
 .content1{
     display: flex;
@@ -81,14 +78,20 @@ img{
     align-items: center;
 }
 
+.content1 h2{
+    font-size: 36px;
+    font-weight: extra-bold;
+    color: #1F2937;
+}
+
 
 .content1 ul{
     display: flex;
-    /* max-width: 200px; */
-    justify-content: center;
-    flex: 0 1 200px;
+    justify-content: center; 
+    max-width: 180px;
+    gap: 3em;
 }
 
-.content1 ul li{
-    max-width: 180px;
+ul li img{
+    border-radius: 10px;
 }
